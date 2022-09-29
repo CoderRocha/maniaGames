@@ -91,6 +91,11 @@ body {
     flex-wrap: wrap;
 }
 
+.listaprodutos h2 {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+}
+
 .produtos {
     width: 250px;
     height: 460px;
