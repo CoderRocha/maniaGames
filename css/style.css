@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inria+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+#name {
+    color: red;
+    background-color: #000569;
+    font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    letter-spacing: 2px;
+}
+
+.menuham {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-left: 12px;
+}
+
+.nossosprods {
+    text-align: center;
+}
+
+.menutop {
+    background-color: #000350;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menutop a {
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.menutop a:hover {
+    color: gray;
+    scale: 0.9;
+}
+
+.produto {
+    margin: auto;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 40px;
+    background-color: #000350;
+    height: 480px;
+    width: 600px;
+    display: center;
+}
+
+#produtoimg {
+    margin: top;
+    width: 600px;
+    display: center;
+}
+
+.listaprodutos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin: 5%;
+}
+
+.produtos {
+    width: 250px;
+    height: 460px;
+    margin-bottom: 32px;
+}
+
+.imagemprod:hover {
+    scale: 0.9;
+}
+
+.produtos h4 {
+    font-size: 18px;
+    justify-content: center;
+}
+
+.produtos p {
+    justify-content: center;
+}
+
+.imagemprod {
+    width: 450px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.button:hover {
+    scale: 1.1;
+}
+
+.socials {
+    width: 32px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#contato {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+.userlogin {
+    text-align: center;
+}
+
+.register {
+    color: white;
+    text-decoration: underline;
+}
+
+.register:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    display: center;
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #0C0C0C;
+    height: 140px;
+}
