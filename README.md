@@ -6,4 +6,6 @@ Repositório destinado a Atividade da UC9 "Codificação Front-End".
 
 - HTML
 - CSS
+- JavaScript
 - Bootstrap
+

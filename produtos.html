@@ -16,15 +16,18 @@
 <body>
     <header>
         <div class="cabecalho">
-            <h1 id="name">Mania Games
-                <div class="menuham"></div>
-                <div class="menuham"></div>
-                <div class="menuham"></div>
-                <nav class="menutop">
-                    <a href="index.html">Início</a>
-                    <a href="produtos.html">Produtos</a>
-                    <a href="contact.html">Contato</a>
-                    <a href="login.html">Login</a>
+            <h1 class="name">Mania Games
+                <nav id="menu" class="menutop">
+                    <a onclick="mostrarMenu()" class="barras" href=""><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512">
+                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg></a>
+                    <a class="options" href="index.html">Início</a>
+                    <a class="options" href="produtos.html">Produtos</a>
+                    <a class="options" href="contact.html">Contato</a>
+                    <a class="options" href="login.html">Login</a>
                 </nav>
             </h1>
         </div>
@@ -35,34 +38,82 @@
         <h3>Busque por milhares de produtos de qualidade em nossa loja!</h3>
         <input type="text" placeholder="Pesquisar.."> <input type="submit" value="Ir"><br>
     </div>
-    <section>
+    <section class="setores">
         <div class="listaprodutos container">
-            <div class="produtos">
-                <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
-                <h4>Xbox One 500GB</h4>
-                <p>Descrição</p>
-                <p>R$ 2500,00</p>
-                <a href="">
-                    <h3 class="button">Comprar</h3>
-                </a>
-            </div>
-            <div class="produtos">
-                <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
-                <h4>Playstation 4 500GB</h4>
-                <p>Descrição</p>
-                <p>R$ 2500,00</p>
-                <a href="">
-                    <h3 class="button">Comprar</h3>
-                </a>
-            </div>
-            <div class="produtos">
-                <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
-                <h4>Notebook Gamer "Start"</h4>
-                <p>Descrição</p>
-                <p>R$ 3500,00</p>
-                <a href="">
-                    <h3 class="button">Comprar</h3>
-                </a>
+            <h2>Setor Gamer</h2>
+            <div class="secao_cards">
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
+                    <h4>Xbox One 500GB</h4>
+                    <p>Descrição</p>
+                    <p>R$ 2500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
+                    <h4>Playstation 4 500GB</h4>
+                    <p>Descrição</p>
+                    <p>R$ 2500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
+                    <h4>Notebook Gamer "Start"</h4>
+                    <p>Descrição</p>
+                    <p>R$ 3500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
+                    <h4>Xbox One 500GB</h4>
+                    <p>Descrição</p>
+                    <p>R$ 2500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
+                    <h4>Playstation 4 500GB</h4>
+                    <p>Descrição</p>
+                    <p>R$ 2500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
+                    <h4>Notebook Gamer "Start"</h4>
+                    <p>Descrição</p>
+                    <p>R$ 3500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
+                    <h4>Playstation 4 500GB</h4>
+                    <p>Descrição</p>
+                    <p>R$ 2500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
+                <div class="produtos card">
+                    <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
+                    <h4>Notebook Gamer "Start"</h4>
+                    <p>Descrição</p>
+                    <p>R$ 3500,00</p>
+                    <a href="">
+                        <h3 class="button">Comprar</h3>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
