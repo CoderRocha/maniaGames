@@ -49,7 +49,7 @@ body {
 
 .menutop svg {
     width: 30px;
-    fill: black;
+    fill: white;
 }
 
 .menutop a:hover {
@@ -227,7 +227,7 @@ footer {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
     .name {
         font-size: 30px;
     }
@@ -305,7 +305,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 388px) {
     .name {
         font-size: 24px;
     }
@@ -341,15 +341,15 @@ footer {
     }
 
     .nossosprods h2 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .nossosprods h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .listaprodutos h2 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .produtoimg {
