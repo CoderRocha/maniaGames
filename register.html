@@ -36,14 +36,16 @@
     <div class="userlogin">
         <h2>Sua Conta</h2>
         <h3>Crie sua Conta</h3>
-        <label for="uname">Nome:</label><br>
-        <input type="text" id="usernamelogin" name="unamelogin"><br>
-        <label for="uemail">E-mail:</label><br>
-        <input type="email" id="useremaillogin" name="uemaillogin"><br>
-        <label for="upassword">Senha:</label><br>
-        <input type="password" id="userpassword" name="upassword"><br><br>
-        <input type="submit" value="Criar Conta"><br>
-        <br>
+        <form class="form">
+            <label for="uname">Nome:</label><br>
+            <input type="text" name="unamelogin" required><br>
+            <label for="uemail">E-mail:</label><br>
+            <input type="email" name="uemaillogin" required><br>
+            <label for="upassword">Senha:</label><br>
+            <input type="password" name="upassword" required><br><br>
+            <input type="submit" value="Criar Conta"><br>
+            <br>
+        </form>
         <p><a class="back" href="login.html">Voltar</a></p>
     </div>
     <br>
