@@ -36,14 +36,14 @@
     <div class="userlogin">
         <h2>Sua Conta</h2>
         <h3>Crie sua Conta</h3>
-        <form class="form">
+        <form id="form" class="form" method="POST" action="index.html">
             <label for="uname">Nome:</label><br>
             <input type="text" name="unamelogin" required><br>
             <label for="uemail">E-mail:</label><br>
             <input type="email" name="uemaillogin" required><br>
             <label for="upassword">Senha:</label><br>
             <input type="password" name="upassword" required><br><br>
-            <input type="submit" value="Criar Conta"><br>
+            <input type="submit" value="Criar Conta" onclick="clickRegister()"><br>
             <br>
         </form>
         <p><a class="back" href="login.html">Voltar</a></p>

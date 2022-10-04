@@ -37,12 +37,12 @@
         <h2>Sua Conta</h2>
         <h3>Entre em sua conta</h3>
         <h4>Não tem conta? <a class="register" href="register.html">Clique aqui</a> para se cadastrar!</h4>
-        <form class="form">
+        <form id="form" class="form" method="POST" action="index.html">
             <label for="uemail">E-mail:</label><br>
             <input type="email" name="uemaillogin" required><br>
             <label for="upassword">Senha:</label><br>
             <input type="password" name="upassword" required><br><br>
-            <input type="submit" value="Entrar"><br>
+            <input type="submit" value="Entrar" onclick="clickLogin()"><br>
         </form>
     </div>
     <br>
