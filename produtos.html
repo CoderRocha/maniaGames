@@ -3,21 +3,31 @@
 
 <head>
     <meta charset="utf-8" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Mania Games</title>
     <meta name="description" content="Site Mania Games" />
     <meta name="keywords" content="Mania, Games, Jogos, Xbox, Playstation, PC, Notebook, Start, Gamer" />
     <meta name="author" content="Guilherme Rocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery-3.6.1.js" defer></script>
+
+    <script type="text/javascript" src="js/scripts.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous" defer></script>
 </head>
 
-<body>
+<body onload="renderizarProdutos()">
     <header>
         <div class="cabecalho">
             <h1 class="name">Mania Games
-                <a onclick="mostrarMenu()" class="barras" href=""><svg xmlns="http://www.w3.org/2000/svg"
+                <a onclick="mostrarMenu()" class="barras" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512">
                         <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                         <path
@@ -42,8 +52,9 @@
     </div>
     <section class="setores">
         <div class="listaprodutos container">
-            <h2>Setor Gamer</h2>
-            <div class="secao_cards">
+            <h2>Departamento Gamer</h2>
+            <div id="secao_produtos" class="secao_cards">
+                
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
                     <h4>Xbox One 500GB</h4>
@@ -53,6 +64,7 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
                     <h4>Playstation 4 500GB</h4>
@@ -62,6 +74,7 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
                     <h4>Notebook Gamer "Start"</h4>
@@ -71,6 +84,7 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
                     <h4>Xbox One 500GB</h4>
@@ -80,6 +94,7 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
                     <h4>Playstation 4 500GB</h4>
@@ -89,6 +104,7 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
                     <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
                     <h4>Notebook Gamer "Start"</h4>
@@ -98,20 +114,22 @@
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
-                    <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
-                    <h4>Playstation 4 500GB</h4>
+                    <a href=""><img class="imagemprod" src="img/xboxone.jpg"></a>
+                    <h4>Xbox One 500GB</h4>
                     <p>Descrição</p>
                     <p>R$ 2500,00</p>
                     <a href="">
                         <h3 class="button">Comprar</h3>
                     </a>
                 </div>
+
                 <div class="produtos card">
-                    <a href=""><img class="imagemprod" src="img/notebookstart.jpg"></a>
-                    <h4>Notebook Gamer "Start"</h4>
+                    <a href=""><img class="imagemprod" src="img/ps4.jpg"></a>
+                    <h4>Playstation 4 500GB</h4>
                     <p>Descrição</p>
-                    <p>R$ 3500,00</p>
+                    <p>R$ 2500,00</p>
                     <a href="">
                         <h3 class="button">Comprar</h3>
                     </a>
@@ -130,9 +148,5 @@
         Rua Tal, n°0, Cidade - Estado
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
 
 </html>
