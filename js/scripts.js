@@ -116,3 +116,29 @@ function renderizarProdutos() {
 
     secaoProdutos.innerHTML = template
 }
+
+$(document).ready(function() {
+
+    let listaSlides = ["produtoimg-xbox", "produtoimg-ps4", "produtoimg-note"]
+    let slideAtual = 1
+
+    function mudarSlide() {
+
+        if (slideAtual > 0) {
+            $(".produtoimg").removeClass(listaSlides[slideAtual - 1])
+        } else {
+            $(".produtoimg").removeClass(listaSlides[listaSlides.length - 1])
+        }
+
+        $(".produtoimg").addClass(listaSlides[slideAtual])
+
+        slideAtual++
+
+        if (slideAtual > (listaSlides.length - 1)) {
+            slideAtual = 0
+        }
+    }
+
+    setInterval(mudarSlide, 3000)
+
+})

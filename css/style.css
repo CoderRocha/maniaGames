@@ -82,20 +82,33 @@ body {
 }
 
 .produtoimg {
+    height: 480px;
     width: 600px;
 }
 
-/* .produtoimg-xbox {
+.produtoimg-xbox {
+    background-position: 50% 50%;
+    height: 80%;
     background-image: url(../img/xboxone.jpg);
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
 }
 
 .produtoimg-ps4 {
+    background-position: 50% 50%;
+    height: 80%;
     background-image: url(../img/ps4.jpg);
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
 }
 
 .produtoimg-note {
+    background-position: 50% 50%;
+    height: 80%;
     background-image: url(../img/notebookstart.jpg);
-} */
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
+}
 
 .nossosprods {
     text-align: center;
@@ -299,6 +312,24 @@ footer {
         height: 100%;
     }
 
+    .produtoimg-xbox {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-ps4 {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-note {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
+    }
+
     .imagemprod {
         width: 100%;
         height: 100%;
@@ -380,6 +411,24 @@ footer {
     .produtoimg {
         width: 100%;
         height: 100%;
+    }
+
+    .produtoimg-xbox {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-ps4 {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-note {
+        background-position: 50% 50%;
+        width: 100%;
+        height: 380px;
     }
 
     .imagemprod {
