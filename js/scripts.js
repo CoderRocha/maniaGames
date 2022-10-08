@@ -7,7 +7,6 @@ function mostrarMenu() {
     } else {
         menu.style.display = "none"
     }
-    event.preventDefault();
 }
 
 /* function mostrarMenuJquery() {
