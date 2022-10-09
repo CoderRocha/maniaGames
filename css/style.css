@@ -88,6 +88,7 @@ body {
 
 .produtoimg-xbox {
     background-position: center;
+    background-repeat: no-repeat;
     height: 80%;
     background-image: url(../img/xboxone.jpg);
     background-size: 600px 480px;
@@ -96,6 +97,7 @@ body {
 
 .produtoimg-ps4 {
     background-position: center;
+    background-repeat: no-repeat;
     height: 80%;
     background-image: url(../img/ps4.jpg);
     background-size: 600px 480px;
@@ -104,6 +106,7 @@ body {
 
 .produtoimg-note {
     background-position: center;
+    background-repeat: no-repeat;
     height: 80%;
     background-image: url(../img/notebookstart.jpg);
     background-size: 600px 480px;
