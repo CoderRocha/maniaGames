@@ -43,7 +43,7 @@ function clickContact() {
 
 /* DOM -> Document Object Model */
 function renderizarProdutos() {
-    let secaoProdutos = document.getElementById('secao_produtos')
+    let secaoProdutos = document.getElementById("secao_produtos")
 
     let listaProdutos = [
         {
@@ -97,16 +97,16 @@ function renderizarProdutos() {
     ]
 
     // Template Strings (usa crase como separador ``)
-    let Template = ""
+    let template = ""
 
     for (let index = 0; index < listaProdutos.length; index++) {
         template = template + `
         <div class="produtos card">
-            <a href=""><img class="imagemprod" src="${ listaProdutos[index].imagem }"></a>
+            <a href="#"><img class="imagemprod" src="${ listaProdutos[index].imagem }"></a>
             <h4>${ listaProdutos[index].nome }</h4>
             <p>${ listaProdutos[index].descricao }</p>
             <p>R$${ listaProdutos[index].preco }</p>
-            <a href="">
+            <a href="#">
             <h3 class="button">Comprar</h3>
             </a>
         </div>
