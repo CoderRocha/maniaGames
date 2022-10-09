@@ -214,6 +214,10 @@ body {
     color: white;
 }
 
+.form input {
+    border-radius: 10px;
+}
+
 .userlogin {
     text-align: center;
     color: white;
