@@ -219,6 +219,8 @@ body {
 
 .form input {
     border-radius: 10px;
+    background-color: #0C0C0C;
+    color: white;
 }
 
 .userlogin {
